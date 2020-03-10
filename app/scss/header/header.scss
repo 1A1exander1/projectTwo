@@ -1,0 +1,125 @@
+
+.header{
+ width: 1440px;
+ height: 640px;
+ margin: 0 auto;
+  background-image: url("../../img/banner.png");
+
+}
+.headerNavigation{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  &__img{
+    position: relative;
+    flex-basis:50%;
+    align-self: center;
+    img{
+      position: absolute;
+      left: 83px;
+      top: -54px;
+    }
+  }
+  &__nav{
+    align-self: center;
+    position: relative;
+    left: -54px;
+    top: -47px;
+    ul{
+
+
+      li{
+        display: inline-block;
+        padding-right:20px;
+        .active{
+          position: relative;
+        }
+        .active::before{
+          content: '';
+          bottom: -13px;
+          left: -5px;
+          position: absolute;
+          width: 20px;
+          border-bottom: dashed;
+          height: 3px;
+          color: #008ed6;
+        }
+        a{
+          text-decoration: none;
+          font-family: Source Sans Pro sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          color: #fffefe;
+        }
+      }
+    }
+  }
+}
+.headerContent{
+  display: flex;
+  justify-content: space-around;
+  &__home{
+    flex-basis: 50%;
+    position: relative;
+    left: 82px;
+    top: -33px;
+    span{
+      font-family: Source Sans Pro sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      color: #008ed6;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    h3{
+      font-family: Source Sans Pro sans-serif;
+      font-weight: 700;
+      font-size: 48px;
+      color: #ffffff;
+      width: 498px;
+      position: relative;
+      top: -30px;
+    }
+    p{
+      font-family: Source Sans Pro sans-serif;
+      font-weight: normal;
+      font-size: 18px;
+      color: #999999;
+      width: 478px;
+      line-height: 22px;
+      position: relative;
+      top: -60px;
+    }
+    button{
+      font-family: Source Sans Pro sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      text-transform: uppercase;
+      background: rgba(0, 0, 0, 0);
+      width: 160px;
+      height: 50px;
+      border-radius: 4px;
+      border: none;
+      color: #ffffff;
+      position: relative;
+      top: -10px;
+    }
+    .btn-1{
+      background: #008ed6;
+    }
+    .btn-2{
+      border: 1px solid #4a494b;
+      margin-left: 20px;
+    }
+  }
+  &__banner{
+    img{
+      position: relative;
+      top:-71px;
+      left:-71px;
+    }
+  }
+}
+

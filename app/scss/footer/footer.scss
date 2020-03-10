@@ -1,0 +1,21 @@
+.footer{
+  .wrapper{
+    height: 160px;
+    background: #15141a;
+    position: relative;
+    bottom: -143px;
+    .block{
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      h3{
+        align-self: center;
+        margin: 0;
+        font-family: Source Sans Pro sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #444348;
+      }
+    }
+  }
+}

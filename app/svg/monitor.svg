@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="26" viewBox="0 0 32 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #008ed6;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Monitor" class="cls-1" d="M30,1.988V18.994H2V1.988H30m0-2H2a2.006,2.006,0,0,0-2,2V18.994a2.006,2.006,0,0,0,2,2H30a2.007,2.007,0,0,0,2-2V1.988a2.007,2.007,0,0,0-2-2h0ZM17,20v4h5a1,1,0,1,1,0,2H10a1,1,0,1,1,0-2h5V20h2Z"/>
+</svg>
